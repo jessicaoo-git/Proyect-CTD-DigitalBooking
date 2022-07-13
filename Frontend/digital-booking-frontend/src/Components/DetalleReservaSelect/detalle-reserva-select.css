@@ -1,0 +1,85 @@
+.select_contenedor {
+  background: #ffffff;
+  border: 1px solid #dfe4ea;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 17px;
+}
+.select_contenedor .css-tj5bde-Svg {
+  color: var(--color-principal);
+  margin-bottom: 10px;
+}
+.select_contenedor .select__reserva--ok {
+  display: flex;
+  gap: 7px;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--color-dos);
+}
+.select_contenedor .select__reserva--ok .ok {
+  font-size: 20px;
+}
+.select_contenedor > p {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--color-dos);
+}
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.select_contenedor .select_contenedor div.css-1s2u09g-control {
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+div.css-6j8wv5-Input{
+    width: 100%;
+    height: 40px;
+}
+
+
+
+
+/**--------------MODELO ADAPTATIVO TABLET---------------*/
+
+@media (min-width: 768px) {
+  .select-container div {
+    width: 80%;
+  }
+  .select-container .css-319lph-ValueContainer {
+    width: 100%;
+    
+  }
+  .select-container .css-1hb7zxy-IndicatorsContainer {
+    width: 10%;
+  }
+  .select_contenedor {
+    padding-bottom: 1.6875rem;
+    padding-top: 1.25rem;
+  }
+  .css-1s2u09g-control{
+    height: 2.5rem;
+    width: 47%;
+    left: 0rem;
+    top: 0rem;
+    border-radius: 0.3125rem;
+    background: #FFFFFF;
+box-shadow: 0rem 0.0625rem 0.3125rem rgba(0, 0, 0, 0.15);
+border-radius: 0.3125rem;
+    
+  }
+  .select_contenedor .select__reserva--ok {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+  }
+}
+
+

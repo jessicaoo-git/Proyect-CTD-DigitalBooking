@@ -1,0 +1,41 @@
+.footer {
+    background-color: var(--color-principal);
+    width: 100%;
+    margin-top: 20px;
+    bottom: 0px;
+    position: fixed;
+    z-index: 100;
+    flex-wrap: nowrap;
+}
+
+.parrafo-footer {
+    display: flex;
+    align-items: center;
+    height: 3.625rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+    padding-left: 1.188rem;
+    
+}
+.iconos-sociales{
+    display: none;
+}
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+    .iconos-sociales{
+        display: flex;
+    }
+    .parrafo-footer{
+        padding-left: 1.938rem;
+    }
+    .contenedor-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1.938rem;
+    }
+}

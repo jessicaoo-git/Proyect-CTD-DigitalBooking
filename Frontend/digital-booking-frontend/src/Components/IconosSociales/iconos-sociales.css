@@ -1,0 +1,15 @@
+
+.iconos-sociales{
+    display: none;
+}
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+.iconos-sociales {
+    display: flex;
+    gap: 1.875rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+
+}
+
+}

@@ -1,0 +1,11 @@
+.favoritos h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.favoritos__listado{
+    background-color: #e5e5e5;
+    height: 100vh;
+    padding-top: 70px;
+}

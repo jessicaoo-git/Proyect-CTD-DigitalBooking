@@ -1,0 +1,11 @@
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
+    background: #474443c5;
+    font-size: 1rem;
+}
+
+.swal2-styled.swal2-confirm {
+    border-color: transparent;
+    background-color: var(--color-principal);
+    width: 100px;
+   
+}

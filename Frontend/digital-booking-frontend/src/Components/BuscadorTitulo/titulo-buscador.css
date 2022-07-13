@@ -1,0 +1,32 @@
+.titulo-buscador h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 28px;
+    padding-bottom: 14px;
+    background-color: var(--color-tres);
+    }
+
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+    .titulo-buscador h1{
+        padding-top: 16px;
+        padding-bottom: 18px;
+
+    } 
+
+}
+
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+ .titulo-buscador h1{
+
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 32px;
+    padding-bottom: 15.5px;
+
+ }
+}

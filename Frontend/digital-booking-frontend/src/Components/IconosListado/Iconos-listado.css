@@ -1,0 +1,21 @@
+.iconos-listado{
+    padding-top: 0.4788rem;
+    display: flex;
+    gap: 0.6731rem;
+    font-size: 0.8263rem;
+    color: var(--color-dos);
+    align-items: center;
+    padding-bottom: 0.4788rem;
+    
+}
+
+.icono-listado-consumido{
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;    
+    filter: hue-rotate(200deg);
+
+}

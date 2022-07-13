@@ -1,0 +1,60 @@
+.contenedor-menu .avatar{
+  display: none;
+}
+header {
+  height: 5.813rem;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 4px 5px rgba(0, 0, 0, 0.12),
+    0px 1px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 0.75rem 0rem 0.75rem;
+  top: 0;
+  position: sticky;
+  z-index: 200;
+}
+
+.contenedor-menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+ .contenedor-logo > h2 {
+  display: none;
+}
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+  .contenedor-menu .avatar{
+    display: flex;
+  }
+  header {
+    padding: 0rem 1rem 0rem 2rem;
+  }
+  .iconoBurguer{
+    display: none; 
+    }
+}
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+  header {
+    padding: 0rem 1.5rem 0rem 2.5rem;
+  }
+  .contenedor-logo > h2 {
+    display: flex;
+    font-style: italic;
+    font-size: 1.25rem;
+    line-height: 1.465rem;
+    color: var(--color-tres);
+    font-weight: 300;
+  }
+
+  .contenedor-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+ 
+}

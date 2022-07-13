@@ -1,0 +1,31 @@
+.bloque__descripcion{
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+.bloque__descripcion p{
+    margin-top: 0.625rem;
+    color : var(--color-dos);
+    font-size: 0.875rem;
+    line-height: 1rem;
+  
+}
+
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+    .bloque__descripcion{
+        padding-left: 2.3125rem;
+        padding-right: 2.3125rem;
+    }
+  
+}
+
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+    .bloque__descripcion{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+   .bloque__descripcion p{
+        margin-top: 0.625rem;
+    }
+}

@@ -1,0 +1,103 @@
+.contenedor__imagenes{
+  display: none;
+}
+
+/* Modelo adaptativo desktop */
+@media screen and (min-width: 992px) {
+    div.slide-number{
+        color: var(--color-principal);
+        font-weight: bold;
+        padding-top: 0.9375rem;
+    }
+    .contenedor__imagenes{
+        height: 440px;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        padding-left: 40px;
+        padding-right: 30px;
+        padding-top: 10px;
+    }
+    .contenedor__imagenes--principal{
+       width: 50%;
+    
+    }
+    .contenedor__imagenes--principal img{
+       width: 100%;
+       height: 440px;
+       border-radius: 8px;
+    
+    }
+    .contenedor__imagenes--secuendaria{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contenedor__imagenes--secuendaria .bloque__uno{
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+    .contenedor__imagenes--secuendaria .bloque__dos{
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    
+    }
+    .contenedor__imagenes--secuendaria .bloque__uno img{
+        width: 50%;
+        height: 210px;
+        border-radius: 8px;
+    
+    }
+    .contenedor__imagenes--secuendaria .bloque__dos img{
+        width: 50%;
+        height: 210px;
+        border-radius: 8px;
+    
+    
+    }
+    .vermas_modal{
+        position: relative;
+        text-align:end;
+        bottom: 50px;
+        padding-right: 20px;
+  
+    }
+    .vermas_modal .btn_carousel{
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
+  .vermas_modal .thumbnail{
+      margin: 3px;
+  }
+ 
+
+  .vermas_modal .thumbnails {
+    margin-top: 10px;
+    height: 90px;
+}
+.vermas_modal .thumbnails img{
+    width: 25%;
+}
+
+.vermas_modal .next{
+    background-color: var(--color-principal);
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vermas_modal .prev{
+ display: none;
+}
+
+
+}

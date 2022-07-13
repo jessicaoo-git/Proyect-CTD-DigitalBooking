@@ -1,0 +1,17 @@
+.iconos__compartir {
+  display: flex;
+  gap: 16px;
+  padding-left: 10px;
+  padding-top: 10px;
+  align-items: center;
+}
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+  .iconos__compartir {
+    display: flex;
+    gap: 16px;
+    padding-left: 40px;
+    padding-top: 10px;
+    align-items: center;
+  }
+}

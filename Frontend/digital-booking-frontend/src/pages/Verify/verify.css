@@ -1,0 +1,98 @@
+.verify .registro {
+  display: none;
+}
+.verify .login {
+  color: #fff;
+}
+
+.verify {
+  background-color: #bebebe;
+  height: 100vh;
+}
+.container__fallido  {
+  background-color: var(--color-dos);
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 50px 30px 50px 30px;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+.container__fallido:hover {
+  box-shadow: none;
+}
+.container__fallido  .text-center {
+  box-shadow: none;
+  background-color: var(--color-dos);
+
+}
+.container__fallido  h3 {
+  color: #fff;
+  padding-bottom: 25px;
+  padding: 0px 0px 0px 0px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: justify;
+  background-color: var(--color-dos);
+
+}
+
+.verify .botones {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height: 50px;
+  color: #fff;
+}
+.verify .botones button {
+  background-color: var(--color-principal);
+}
+.verify .botones button:hover {
+  background: var(--color-dos);
+  color: var(--color-cuatro);
+  border: 0px solid transparent;
+  border: 1px solid var(--color-principal);
+}
+
+@media screen and (max-width: 768px) {
+  .verify .botones button {
+    width: 150px;
+    border: 1px solid var(--color-dos);
+    padding: 20px;
+    font-size: 16px;
+    height: 70px;
+  }
+  .verify .botones button:hover {
+    background: var(--color-dos);
+    color: var(--color-cuatro);
+    border: 0px solid transparent;
+    border: 1px solid var(--color-principal);
+  }
+
+  .verify .container__fallido  h3 {
+    font-size: 20px;
+  }
+  .container__fallido {
+    width: 90%;
+  }
+  
+}
+@media screen and (max-width: 390px) {
+  .verify .botones button {
+    width: 150px;
+    border: 1px solid var(--color-dos);
+    padding: 15px;
+  }
+  .verify .botones button:hover {
+    background: var(--color-dos);
+    color: var(--color-cuatro);
+    border: 0px solid transparent;
+    border: 1px solid var(--color-principal);
+  }
+
+  .verify .container__fallido h3 {
+    font-size: 14px;
+  }
+ 
+}

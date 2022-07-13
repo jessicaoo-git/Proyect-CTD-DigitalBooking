@@ -1,0 +1,40 @@
+[
+      {
+            
+        "img": "https://a0.muscache.com/im/pictures/2dd42ed5-8ce3-4eea-b723-df657b1737e3.jpg?im_w=1440",
+        "alt" : "Hoteles",
+        "titulo": "habitación",
+        "tipo": "Imagen-principal"
+      },
+  
+      {
+        
+        "img": "https://images.unsplash.com/photo-1525351484163-7529414344d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnJlYWtmYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "alt" : "Hoteles",
+        "titulo": "Desayuno",
+        "tipo": "Imagen-secundaria"
+      },
+      {
+        
+        "img": "https://a0.muscache.com/im/pictures/efd4c515-ee64-412b-bd50-2885998902a6.jpg?im_w=1440",
+        "alt" : "Hoteles",
+        "titulo": "baño",
+        "tipo": "Imagen-secundaria"
+      },
+      {
+        
+        "img": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmElQzMlQjFvJTIwdHVyY298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "alt" : "Hoteles",
+        "titulo": "turco",
+        "tipo": "Imagen-secundaria"
+
+      },
+      {
+        
+        "img": "https://a0.muscache.com/im/pictures/4b8be7ef-d29a-4d9b-8d45-85c77e201ccf.jpg?im_w=1200",
+        "alt" : "Hoteles",
+        "titulo": "habitacion",
+        "tipo": "Imagen-secundaria"
+      }
+
+]

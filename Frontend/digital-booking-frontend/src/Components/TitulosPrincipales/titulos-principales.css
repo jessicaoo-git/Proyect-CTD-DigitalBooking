@@ -1,0 +1,31 @@
+.titulos-principales h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0em;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 28px;
+    color: var(--color-dos);
+    padding-left: 0.938rem;
+    padding-top: 2.438rem;
+
+}
+
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+
+    .titulos-principales h2 {
+        padding-left: 6%;
+        padding-top: 1.438rem;
+    }
+}
+
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+    .titulos-principales h2 {
+        padding-left: 3%;
+        padding-top: 1.063rem;
+    }
+   
+}

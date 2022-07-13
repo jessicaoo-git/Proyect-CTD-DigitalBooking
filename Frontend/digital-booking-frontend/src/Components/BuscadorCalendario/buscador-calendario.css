@@ -1,0 +1,194 @@
+/* Contenedor principal de input */
+.rmdp-container {
+  width: 100%;
+  margin: 0;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+ 
+
+}
+
+.rmdp-container::before{
+  content: "";
+  display: inline-block;
+  padding-right: 5px;
+  visibility: visible;
+  background-image: url(../BloqueBuscador/img/calendar.png);
+  width: 19px;
+  height: 24px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 5px;
+  right: 14%;
+  
+  
+}
+ .rmdp-container .rmdp-input::placeholder{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7F7F7F;
+  opacity: 0.8;
+
+}
+
+/* Esta clase es para las medidas del input de  data picker en Mobile*/
+.rmdp-container .rmdp-input {
+  border: none;
+  height: 38px;
+  position: relative;
+  color: #7f7f7f;
+  font-weight: 500;
+  padding: 20.7px 0px;
+  margin: 0;
+  outline: none;
+  border-color: transparent;
+
+  
+
+}
+
+.contenedor-home-calendario .rmdp-container {
+  width: 10%;
+  height: 40px;
+  outline: none;
+  border-color: transparent;
+  border: 1px solid #f3f1ed;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.home .rmdp-day span,
+.home .rmdp-header-values span,
+.home .rmdp-week-day {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.home .rmdp-week-day {
+  color: var(--color-tres);
+}
+
+.home .rmdp-week {
+  justify-content: space-around;
+}
+
+/* El color del mes y año*/
+.home .rmdp-header-values {
+  color: var(--color-tres);
+}
+
+/* esta clase es el  dia que seleccionamos */
+.home .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover {
+  background-color: var(--color-principal);
+}
+
+.home span.sd {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-dos);
+}
+
+/* esta clase es para los dias deshabnilitados */
+.home .rmdp-day.rmdp-disabled span {
+  font-size: 14px;
+  color: gray;
+  text-decoration: line-through;
+}
+
+/* esta clase es para la distancia entre los dias */
+.home .rmdp-day {
+  padding: 20px;
+  margin: 7px;
+}
+
+.home .rmdp-input {
+  height: 33.7px;
+  outline: none;
+  border-color:  transparent;
+  width: 60%;
+}
+
+.home .rmdp-day.rmdp-range {
+  background-color: var(--color-principal);
+  border-radius: 50%;
+  color: #fff;
+}
+
+.home .rmdp-day.rmdp-range span {
+  color: #fff;
+}
+
+.home .rmdp-day.rmdp-range.start {
+  background-color: var(--color-principal);
+  box-shadow: 0 0 3px var(--color-principal);
+  color: #fff;
+  border-radius: 50%;
+}
+
+.home .rmdp-day.rmdp-range.end {
+  background-color: var(--color-principal);
+  box-shadow: 0 0 3px var(--color-principal);
+  color: #fff;
+  border-radius: 50%;
+}
+
+.rmdp-day.rmdp-today span {
+  background-color: transparent;
+  color: #fff;
+}
+
+/*--------------MODELO ADAPTATIVO TABLET---------------*/
+
+@media (min-width: 768px) {
+  .rmdp-container::before{
+    right: 10%;
+  }
+  /* el margen entre los dias del calendario */
+  .home .rmdp-day {
+    padding: 0px;
+    margin: 3px;
+  }
+
+  .home .rmdp-container {
+    width: 260px;
+  }
+
+  .home .rmdp-day-picker {
+    background-color: white;
+  }
+
+  .home .rmdp-top-class {
+    background-color: white;
+  }
+
+  .home .rmdp-day-picker {
+    margin-right: 50px;
+  }
+
+  .home .rmdp-top-class {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home .rmdp-container {
+    width: 420px;
+;
+  }
+
+  .home .rmdp-top-class {
+    width: 100%;
+  }
+
+  .rmdp-container {
+    height: 40px;
+    width: 422px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+:root{
+  --color-principal: #F0572D;
+  --color-dos:#31363F;
+  --color-tres:#191B1D;
+  --color-cuatro:#DFE4EA;
+}
+
+div.css-6j8wv5-Input {
+  
+  opacity: 0;
+}
+
+.home .rmdp-input {
+  box-shadow: none;
+}

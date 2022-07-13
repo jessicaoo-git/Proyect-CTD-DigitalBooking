@@ -1,0 +1,115 @@
+
+
+.mapa > #map{
+  width: 95%;
+  height: 380px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 8px;
+  
+}
+
+.list-btn,
+.list-input,
+.info-window-box {
+  box-shadow: 0 0 3px rgb(170, 170, 170);
+}
+
+.list-form {
+  max-width: 250px;
+}
+.list-box {
+  top: 45px;
+  position: fixed;
+  left: 0;
+  padding: 0 10px;
+  z-index: 100;
+}
+
+.list-btn {
+  padding: 5px 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  border-radius: 2px 0 0 2px;
+  font-weight: 600;
+}
+
+.list-btn:hover {
+  background: #f7f7f7;
+}
+
+.list-input {
+  border: none;
+  border-radius: 0 2px 2px 0;
+  padding: 5px 8px;
+}
+
+.locations-list {
+  list-style: none;
+  padding: 0 10px 10px 10px;
+  max-width: 250px;
+  background: #fff;
+}
+
+.location-item {
+  border-bottom: 4px solid #fff;
+  padding: 10px 0;
+}
+
+.location-item:hover {
+  color: #51a3aa;
+  cursor: pointer;
+  border-color: #1ca1ad;
+}
+
+.info-window-box {
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  z-index: 50;
+  height: 50%;
+  overflow: auto;
+  min-height: 250px;
+  background: #fff;
+  border-radius: 2px 2px 0 0;
+  padding: 10px;
+}
+
+.info-window-box h2 {
+  margin: 0 0 10px 0;
+  border-bottom: 2px solid #bbb;
+  padding: 0 0 5px 0;
+}
+
+.credits {
+  color: #aaa;
+  margin: 5px 0;
+  font-size: 0.8em;
+  font-style: bold;
+}
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+  .mapa > #map{
+    width: 92%;
+    height: 380px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    left: 8px;
+    
+  }
+}
+
+
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+  .mapa > #map{
+    width: 95%;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+}

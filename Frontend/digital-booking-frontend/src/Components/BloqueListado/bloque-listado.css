@@ -1,0 +1,236 @@
+/**---------------estilos estrellas ----------------**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  background-color: var(--color-dos);
+}
+
+.contador > h3 {
+  /* border: 1px solid grey; */
+  padding: 0rem 0.625rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.contador button {
+  background-color: transparent;
+  border: transparent;
+}
+
+.contador .siguiente {
+  color: white;
+  font-size: 1.875rem;
+  background-color: var(--color-principal);
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.estrella {
+  display: flex;
+  flex-direction: column;
+  padding: 19px 0px;
+}
+
+.hotel-estrellas {
+  display: flex;
+  align-items: center;
+}
+
+.hotel-estrellas h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--color-dos);
+  opacity: 0.5;
+}
+
+.rating {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.rating p {
+  background-color: white;
+  text-align: end;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: var(--color-cuatro);
+  background: var(--color-dos);
+  border: 1px solid var(--color-dos);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+
+.calificacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calificacion h3 {
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--color-dos);
+}
+
+.calificacion p {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: var(--color-dos);
+  font-weight: 700;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.location span {
+  color: var(--color-principal);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.location p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color-dos);
+}
+
+/**------------estilos card listado-----------*/
+.contenedor-card-list {
+  border: 1px solid var(--color-cuatro);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 8px 8px;
+  width: 94%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+}
+
+.img-list {
+  width: 100%;
+  border-radius: 0px 0px 8px 8px;
+  background-position: center;
+  background-size: cover;
+  height: 231px;
+}
+
+.img-list:hover {
+ opacity: 0.8;
+}
+.card-list {
+  padding: 0px 15px 15px 15px;
+}
+
+.descripcion-listado {
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color-dos);
+}
+
+.descripcion-listado > span {
+  color: var(--color-principal);
+}
+
+.contenedor-bloque-listado {
+  background-color: var(--color-dos);
+  padding-top: 10px;
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+}
+
+.card-list .boton-listado {
+  background-color: var(--color-principal);
+  color: #ffffff;
+  width: 100%;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  height: 40px;
+  border-color: transparent;
+  cursor: pointer;
+}
+.card-list .boton-listado:hover {
+  background-color: #bb4424;
+}
+.mapa {
+  color: var(--color-tres);
+  margin-bottom: 5px;
+  display: flex;
+  gap: 0.3725rem;
+}
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+  .contenedor-bloque-listado {
+    background-color: #e5e5e5;
+  }
+  .contador {
+    background-color: #e5e5e5;
+  }
+  .contador > h3 {
+    color: var(--color-tres);
+  }
+  .contenedor-card-list {
+    display: flex;
+    width: 89%;
+  }
+
+  .img-list {
+    height: auto;
+   }
+  .card-list {
+    width: 100%;
+  }
+  
+}
+
+/* Modelo adaptativo desktop */
+@media screen and (min-width: 992px) {
+  .contenedor-bloque-listado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #e5e5e5;
+  }
+
+  .contenedor-card-list {
+    width: 46.5%;
+    display: flex;
+    margin: 0;
+  }
+
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "img" : "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/30122005/hoteles-lujo-destacada-1.jpg",
+        "category": "Hoteles",
+        "title": "Hermitage Hotel",
+        "location" : "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+    },
+    {
+        "img" : "https://static.hosteltur.com/app/public/uploads/img/articles/2018/09/18/M_123810_barcelo-fuerteventura-thalasso-activohispania.jpg",
+        "category": "Hoteles",
+        "title": "Four Season",
+        "location" : "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+    },
+    {
+        "img" : "https://www.preferente.com/wp-content/uploads/2019/12/hotels-mallorca_opt.jpg",
+        "category": "Hostels",
+        "title": "The Norman",
+        "location" : "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+    },
+    {
+        "img" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/d9/b3/56/hotel-isla-del-encanto.jpg?w=600&h=300&s=1",
+        "category": "Hostels",
+        "title": "The George",
+        "location" : "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+    },
+    {
+        "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQmlqyZc2UF5L5JQlOL-SIFVqMCZoTa_N-KZrzGEToSO7zXMhNMwatQpQZ1CG2Dae9Ez8&usqp=CAU",
+        "category": "Departamentos",
+        "title": "Lefay Resort",
+        "location" : "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+    },
+    {
+        "img" : "https://data.1freewallpapers.com/download/luxury-resort-1600x900.jpg",
+        "category": "Departamentos",
+        "title": "Lago di Garda",
+        "location" : "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+    },
+    {
+        "img" : "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/245039124.jpg?k=bfc225d3a42f4aa6ac26a7bcba57f3b439a6a25feb870d466030d74203b0f338&o=",
+        "category": "Bed and breakfast",
+        "title": "Villa Franca",
+        "location" : "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+    },
+    {
+        "img" : "https://a-static.besthdwallpaper.com/hotel-de-lujo-con-piscina-papel-pintado-1152x768-27879_36.jpg",
+        "category": "Bed and breakfast",
+        "title": "Cap Rocat",
+        "location" : "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires."
+    }
+]

@@ -1,0 +1,314 @@
+.creacionProducto__titulo {
+  background-color: #e5e5e5;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: var(--color-dos);
+  font-weight: 700;
+  padding-left: 3rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1rem;
+}
+
+.creacionProducto__subtitulo {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--color-dos);
+  padding-left: 0.625rem;
+  padding-top: 2.3125rem;
+  padding-bottom: 0.8125rem;
+}
+.creacionProducto__subtitulo_inde {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--color-dos);
+  padding-left: 0.625rem;
+  padding-top: 2.3125rem;
+  padding-bottom: 0.8125rem;
+}
+.pantalla__creacionProducto--contenedor {
+  background-color: #e5e5e5;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 3.125rem;
+}
+
+.creacionProducto__form {
+  font-family: "Roboto";
+  display: flex;
+  box-sizing: border-box;
+  border: 0.0625rem solid #dfe4ea;
+  background: #ffffff;
+  padding: 1rem;
+  border: 0.0625rem solid #dfe4ea;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+}
+
+.creacionProducto__form .crearProducto {
+  background: var(--color-principal);
+  box-shadow: 0rem 0.125rem 0.25rem rgba(0, 0, 0, 0.12);
+  border-radius: 0.3125rem;
+  width: 25%;
+  height: 3.125rem;
+  border-radius: 0.3125rem;
+  border: transparent;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 3rem;
+  cursor: pointer;
+  margin-bottom: 1.875rem;
+  transition: 240ms;
+}
+.creacionProducto__form .crearProducto:hover {
+  background-color: var(--color-dos);
+}
+.creacionProducto__form .contenedor_centrado {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.creacionProducto__form h3 {
+  color: var(--color-dos);
+  padding: 0.8rem;
+}
+
+.creacionProducto__form input {
+  background: var(--color-cuatro);
+  opacity: 1;
+  box-shadow: 0rem 0.0625rem 0.3125rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.3125rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.3125rem;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.creacionProducto__form textarea {
+  opacity: 1;
+  box-shadow: 0rem 0.0625rem 0.3125rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.3125rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.3125rem;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  font-family: "Roboto";
+  cursor: pointer;
+  background: #ffffff;
+  resize: none;
+  outline: none;
+  border-color: transparent;
+}
+
+.creacionProducto__form select {
+  background: var(--color-cuatro);
+  opacity: 1;
+  box-shadow: 0rem 0.0625rem 0.3125rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.3125rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.3125rem;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+  background: #ffffff;
+  border: none;
+}
+
+input::-webkit-input-placeholder {
+  opacity: 0.5;
+  color: var(--color-dos);
+  font-size: 0.875rem;
+}
+
+.box-direccion {
+  border: none;
+}
+.input-box label{
+line-height: 30px;
+font-weight: 500;
+font-size: 14px;
+color: var(--color-dos);
+}
+.input-box2 label {
+  color: var(--color-dos);
+  font-weight: 500;
+  line-height: 0.875rem;
+}
+.creacionProducto__contenedor__contraste {
+  background: #bebebe31;
+  margin: 0 0.625rem 0 0.625rem;
+  border-radius: 0.3125rem;
+  padding: 1.0625rem 1.25rem 0.9375rem 1.25rem;
+}
+
+.creacionProducto__contenedor__contraste .botonAgregar {
+  background-image: url("../../../public/assets/agregar.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 0.625rem;
+  background-color: none;
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.creacionProducto__contenedor__contraste .botonQuitar {
+  background-image: url("../../../public/assets/quitar.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 0.625rem;
+  background-color: none;
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+input.box-elemento-imagen {
+  background-color: var(--color-cuatro);
+  border: 2px solid rgb(211, 209, 209);
+  color: grey;
+}
+
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+  .creacionProducto__form .formPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  .pantalla__creacionProducto--contenedor {
+    gap: 3rem;
+    padding-left: 1.25rem;
+    padding-right: 0.625rem;
+    padding-bottom: 3.125rem;
+    padding-left: 3.1875rem;
+    padding-right: 3.1875rem;
+  }
+
+  .creacionProducto__form h3 {
+    font-size: 1.5rem;
+  }
+}
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+  .creacionProducto__contenedor__75_25 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 95%;
+  }
+  .creacionProducto__contenedor__contraste .creacionProducto__felexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+  }
+  .creacionProducto__contenedor__contraste .botonAgregar {
+    margin-top: 0.9375rem;
+  }
+
+  .creacionProducto_contenedor_checkboxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    list-style-type: none;
+  }
+
+  .input-checkbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+  }
+
+  .creacionProducto_contenedor_checkboxes .input-checkbox input {
+    margin: 0.625rem 0.625rem 0.625rem 0.625rem;
+    background: none !important;
+    box-shadow: none !important;
+  }
+  #categoria , #ciudad{
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    color: #BEBEBE;
+    height: 2.5rem;
+  }
+  .img-checkbox {
+    width: 30px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: none;
+    filter: hue-rotate(200deg);
+  }
+
+  .creacionProducto__contenedor_politicas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: #ffffff;
+    padding: 0px 30px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin: 0rem 0.625rem 0rem 0.625rem;
+
+  }
+
+  .creacionProducto__form .formPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .creacionProducto__form h3 {
+    font-size: 1.2rem;
+  }
+  .creacionProducto__form .input-box {
+    width: 50%;
+    padding: 0.625rem;
+  }
+  .creacionProducto__form .input-box2 {
+    width: 100%;
+    padding: 0.625rem;
+  }
+
+  .pantalla__creacionProducto--contenedor {
+    display: flex;
+    padding-bottom: 3.125rem;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .pantalla__creacionProducto--contenedor__principal {
+    width: 100%;
+  }
+}

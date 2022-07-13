@@ -1,0 +1,62 @@
+.temporal {
+  padding: 100px;
+}
+.detalle__producto .lugar {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  color: var(--color-dos);
+}
+.detalle__producto--titulo {
+  font-weight: 700;
+  width: 80%;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: var(--color-dos);
+  padding: 1.6rem 0rem 0.8125rem 0.625rem;
+}
+
+.alojate {
+  padding: 0rem 0rem 0.8125rem 0.625rem;
+}
+.detalle__producto hr {
+  bottom: 0.625rem;
+  background-color: var(--color-principal);
+  border: 1px solid var(--color-principal);
+}
+.fechas {
+  background-color: #e5e5e5;
+  width: 100%;
+}
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+  .detalle__producto--titulo {
+    padding-left: 2.3125rem;
+    width: 100%;
+  }
+  .detalle__producto .lugar {
+    padding-left: 40px;
+  }
+}
+
+.slider__destopk {
+  display: none;
+}
+
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+  .detalle__producto--titulo {
+    padding-left: 2.5rem;
+  }
+  .detalle__producto .lugar {
+    padding-left: 40px;
+  }
+  .slider__destopk {
+    display: flex;
+  }
+
+  .alojate {
+    padding: 1.6rem 0rem 0.8125rem 2.5rem;
+  }
+}

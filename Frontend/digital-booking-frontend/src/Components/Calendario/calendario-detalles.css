@@ -1,0 +1,126 @@
+/* ---------------------Contenedor principal calendario-------------------- */
+
+.detalles.rmdp-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 4% 0 4% 0;
+  justify-content: center;
+}
+/* ---------------------Contenedorcalendario-------------------- */
+
+.detalles .rmdp-calendar {
+  width: 100%;
+}
+
+/* ---------------------Contenedor dias calendario-------------------- */
+.detalles .rmdp-day-picker {
+  gap: 2%;
+  width: 100%;
+}
+
+/* ---------------------Tamaño caja de los dias-------------------- */
+.detalles .rmdp-day {
+  margin: 0.4375rem;
+  width: 2.125rem;
+  height: 2.125rem;
+}
+
+/* ---------------------background-color dia actual-------------------- */
+
+.detalles .rmdp-day.rmdp-selected span:not(.highlight) {
+  background-color: transparent;
+  color: var(--color-tres);
+  cursor: default;
+}
+
+.detalles .rmdp-day span,
+.detalles .rmdp-header-values span,
+.detalles .rmdp-week-day {
+  font-size: 1.25rem;
+}
+
+/* ---------------------color dias L-M-M-J-V-S-D-------------------- */
+.detalles .rmdp-week-day {
+  color: var(--color-tres);
+}
+/* ---------------------Estilos dias deshabilitados-------------------- */
+
+.detalles .rmdp-day.rmdp-disabled span {
+  color: #bebebe;
+  text-decoration: line-through;
+  font-size: 0.875rem;
+}
+/* ---------------------Estilos dias letras-------------------- */
+
+.detalles .rmdp-day .sd {
+  font-size: 0.875rem;
+}
+
+/* ---------------------Estilos cuando paso por encima de la fecha-------------------- */
+
+.detalles .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover {
+  background-color: transparent;
+  color: var(--color-tres);
+  cursor: default;
+}
+
+@media screen and (min-width: 768px) {
+  .detalles.rmdp-wrapper {
+    padding-bottom: 3%;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Espacio entre cada uno de los meses*/
+  .detalles .rmdp-day-picker {
+    gap: 4%;
+  }
+
+  /* margin entre los días */
+  .detalles .rmdp-day {
+    margin: 0.3125rem;
+  }
+  .detalles .rmdp-week {
+    justify-content: space-around;
+  }
+
+  /* Fuente del texto de días */
+  .detalles .rmdp-day span,
+  .detalles .rmdp-header-values span,
+  .detalles .rmdp-week-day {
+    font-size: 1.25rem;
+    font-weight: 100;
+  }
+  .detalles .rmdp-week-day {
+    padding: 3% 0 3% 0;
+  }
+
+  .detalles .rmdp-calendar {
+    height: 20.625rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .detalles.rmdp-wrapper {
+    width: fit-content;
+    padding: 2.1875rem 3.4375rem;
+  }
+
+  .detalles .rmdp-calendar {
+    width: 50rem;
+  }
+  .detalles .rmdp-day-picker {
+    gap: 6%;
+    justify-content: center;
+  }
+  .detalles .rmdp-day {
+    margin: 0.3125rem 0.4375rem;
+  }
+  .detalles .rmdp-day.rmdp-selected span:not(.highlight) {
+    width: 1.875rem;
+  }
+  .contCalendario {
+    width: 56.25rem;
+  }
+}

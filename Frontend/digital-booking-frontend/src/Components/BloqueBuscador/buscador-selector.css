@@ -1,0 +1,33 @@
+.icon-select-box {
+  position: relative;
+  width: clamp(254px, 33vw, 420px);
+  max-width: 420px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.city-container {
+  display: flex;
+  position: relative;
+}
+
+.city-name {
+  flex-direction: column;
+  position: relative;
+}
+
+.titulo-ciudad {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+}
+.titulo-pais {
+  color: var(--color-tres);
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 15px;
+}
+div.css-ryz2uy-control {
+  background-color: red;
+}

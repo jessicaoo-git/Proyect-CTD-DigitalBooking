@@ -1,0 +1,13 @@
+.logo img {
+    Width: 4.25rem;
+    Height: 3.125rem;
+}
+
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+    .logo img{
+        width: 4.438rem;
+        height: 3.25rem;
+    }
+ 
+  }

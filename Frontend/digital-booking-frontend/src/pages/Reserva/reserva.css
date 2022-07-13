@@ -1,0 +1,228 @@
+.pantalla__reserva--contenedor {
+  background-color: #e5e5e5;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 3.125rem;
+}
+
+.reserva__politicas > h3 {
+  background-color: #ffffff;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: var(--color-dos);
+  padding-left: 0.875rem;
+  padding-top: 2.375rem;
+  padding-bottom: 1.875rem;
+}
+.reserva__politicas hr {
+  bottom: 0.625rem;
+  background-color: var(--color-principal);
+  border: 0.0625rem solid var(--color-principal);
+}
+.reserva__politicas .bloque_politicas {
+  padding-top: 2.5rem;
+  padding-bottom: 9.375rem;
+}
+.reserva__titulo {
+  background-color: #e5e5e5;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+
+  color: var(--color-dos);
+  padding-left: 0.625rem;
+  padding-top: 2.375rem;
+}
+
+.reserva__titulo--calendario {
+  background-color: #e5e5e5;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+
+  color: var(--color-dos);
+  padding-left: 0rem;
+  padding-top: 1.25rem;
+  padding-bottom: 0.8125rem;
+}
+
+.reserva__horario {
+  background-color: #e5e5e5;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: var(--color-dos);
+  padding-left: 0px;
+  padding-top: 1.25rem;
+  padding-bottom: 0.8125rem;
+}
+
+.reserva__calendario {
+  background-color: #e5e5e5;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-dos);
+  padding-bottom: 0rem;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.3125rem;
+}
+
+/**---Estilos calendario reserva*/
+.reserva__calendario .rmdp-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 0%;
+  justify-content: center;
+}
+
+/**Estilo del circulo que se pinta cuando selecciono algo*/
+.reserva__calendario
+  .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden)
+  span:hover {
+  background-color: var(--color-principal);
+  color: #fff;
+}
+.reserva__calendario .rmdp-day {
+  margin: 0.4375rem;
+  width: 2.125rem;
+  height: 2.125rem;
+}
+
+/**Raya para los dias que no estan habilitados*/
+.reserva__calendario .rmdp-day.rmdp-disabled span {
+  color: #bebebe;
+  text-decoration: line-through;
+  font-size: 0.875rem;
+}
+
+/**Color para el rango de dias*/
+.reserva__calendario .rmdp-range {
+  background-color: var(--color-principal);
+  box-shadow: 0 0 0.1875rem #8798ad;
+  color: #fff;
+}
+
+.reserva__calendario .rmdp-week-day {
+  color: var(--color-tres);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+  .pantalla__reserva--contenedor {
+    gap: 3rem;
+    padding-left: 1.25rem;
+    padding-right: 0.625rem;
+    padding-bottom: 3.125rem;
+    padding-left: 2.1875rem;
+    padding-right: 1.25rem;
+  }
+  .reserva__politicas > h3 {
+    padding-left: 2.375rem;
+    font-size: 24x;
+  }
+  .reserva__titulo {
+    font-size: 1.5rem;
+    padding-left: 2.5rem;
+  }
+
+  .reserva__titulo--calendario {
+    font-size: 1.5rem;
+    padding-left: 0rem;
+  }
+  .reserva__horario {
+    font-size: 1.5rem;
+    padding-left: 0rem;
+  }
+
+  .reserva__calendario {
+    font-size: 1.5rem;
+  }
+}
+
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+  .reserva__calendario .contCalendario {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0rem 0.25rem 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.3125rem;
+  }
+
+  .pantalla__reserva--contenedor {
+    display: flex;
+    padding-bottom: 3.125rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .pantalla__reserva--contenedor__principal {
+    width: 100%;
+  }
+
+  .reserva__titulo {
+    padding-left: 2.1875rem;
+  }
+
+  .reserva__titulo--calendario {
+    padding-left: 0rem;
+  }
+  .reserva__politicas > h3 {
+    padding-left: 2.8125rem;
+  }
+  .reserva__politicas hr {
+    bottom: 0.625rem;
+    background-color: var(--color-principal);
+    border: 0.0625rem solid var(--color-principal);
+  }
+ 
+
+  /**---Estilos calendario---*/
+  .reserva__calendario .rmdp-wrapper {
+    display: flex;
+    width: 100%;
+    height: 297px;
+    padding: 0%;
+    justify-content: center;
+  }
+
+  .reserva__calendario .rmdp-day {
+    margin: 0.1875rem 0.4375rem;
+    width: 2.125rem;
+    height: 1.6875rem;
+  }
+
+  .reserva__calendario .rmdp-wrapper.rmdp-shadow.reserva {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 0.3125rem;
+  }
+
+  .reserva__calendario div.flecha.left {
+    left: 1;
+    margin-left: 2.0625rem;
+  }
+
+  .reserva__calendario div.rmdp-wrapper.reserva div.flecha {
+    top: 6.25rem;
+  }
+
+  .reserva__calendario .reserva div.flecha.right {
+    right: 1;
+    margin-right: 2.0625rem;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .reserva__calendario div.flecha.left {
+    margin-left: 0rem;
+  }
+  .reserva__calendario .reserva div.flecha.right {
+    margin-right: 0rem;
+  }
+}

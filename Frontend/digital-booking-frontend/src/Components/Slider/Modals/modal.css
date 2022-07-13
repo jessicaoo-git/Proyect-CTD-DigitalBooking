@@ -1,0 +1,57 @@
+.modalCarousel {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transition: 240ms;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.modalCarousel.is-open {
+  display: flex;
+}
+
+.modal-container__corousel {
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+  background: var(--color-dos);
+  opacity: 0.95;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow-y: auto;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 4px 5px rgba(0, 0, 0, 0.12);
+}
+
+.modal-container__corousel .modal-close {
+  position: absolute;
+  top: 1.4rem;
+  right: 1.4rem;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  border-radius: 50%;
+  border-color: transparent;
+  font-weight: 500;
+}
+.contenedor-modal {
+  padding-top: 2.5rem;
+}
+.contenedor-modal h2 {
+  font-size: 0.875rem;
+  padding-bottom: 0.625rem;
+}
+
+.contenedor__compartir {
+  display: flex;
+  justify-content: center;
+  gap: 0.8125rem;
+  font-size: 1.25rem;
+  align-items: center;
+}

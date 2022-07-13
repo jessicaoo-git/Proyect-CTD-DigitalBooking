@@ -1,0 +1,260 @@
+{
+	"id": "9f8ffc2d-d023-433a-9aa1-674818bb8e68",
+	"name": "ApiTestingI",
+	"timestamp": "2022-05-26T12:19:19.049Z",
+	"collection_id": "21091860-ddb564ff-0990-42d7-84d4-74505584b056",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "584f7e87-e0e9-4a93-86b3-b34ed980d32b",
+			"name": "CrearNuevaCategoria",
+			"url": "http://localhost:8080/categorias",
+			"time": 1178,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1178
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "df386e7a-b7e7-4def-be92-154054126156",
+			"name": "CrearCategoriaParaEliminar",
+			"url": "http://localhost:8080/categorias",
+			"time": 195,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				195
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9e414da0-7a02-4a05-b114-4767a86f47af",
+			"name": "CrearCategoriaParaActualizar",
+			"url": "http://localhost:8080/categorias",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				134
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7aa14b7f-77c1-48cc-9d54-4e689344e48a",
+			"name": "ListarCategoriasAntesDeEliminar",
+			"url": "http://localhost:8080/categorias",
+			"time": 250,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				250
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3b196ff9-58c4-46aa-a7da-7b9459a8663d",
+			"name": "BuscarPorID",
+			"url": "http://localhost:8080/categorias/1",
+			"time": 36,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				36
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "abe853f7-c7ee-482e-b594-a5e201695b6c",
+			"name": "ActualizarCategoria",
+			"url": "http://localhost:8080/categorias",
+			"time": 234,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				234
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "313d62b2-ed91-4ab1-9ac1-a4db8576cbd3",
+			"name": "EliminarCategoria",
+			"url": "http://localhost:8080/categorias/2",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				205
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "246199ec-8804-4ca1-aacb-270113ad5903",
+			"name": "EliminarCategoriaInexistente",
+			"url": "http://localhost:8080/categorias/delete/7",
+			"time": 39,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				39
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "704fd67b-310e-4e99-9599-12ee03b1c3fb",
+			"name": "ActualizarCategoriaInexistente",
+			"url": "http://localhost:8080/categorias",
+			"time": 30,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				30
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5ea2d6f9-f135-44d5-b4b7-be2a5f749503",
+			"name": "CrearNuevaCategoriaSinTitulo",
+			"url": "http://localhost:8080/categorias",
+			"time": 33,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				33
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f4a82ecd-1ab4-48c4-b4c1-93b07c0058a7",
+			"name": "ListarCategoriasDespuesDeEliminar",
+			"url": "http://localhost:8080/categorias",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				14
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2348,
+	"collection": {
+		"requests": [
+			{
+				"id": "584f7e87-e0e9-4a93-86b3-b34ed980d32b",
+				"method": "POST"
+			},
+			{
+				"id": "df386e7a-b7e7-4def-be92-154054126156",
+				"method": "POST"
+			},
+			{
+				"id": "9e414da0-7a02-4a05-b114-4767a86f47af",
+				"method": "POST"
+			},
+			{
+				"id": "7aa14b7f-77c1-48cc-9d54-4e689344e48a",
+				"method": "GET"
+			},
+			{
+				"id": "3b196ff9-58c4-46aa-a7da-7b9459a8663d",
+				"method": "GET"
+			},
+			{
+				"id": "abe853f7-c7ee-482e-b594-a5e201695b6c",
+				"method": "PUT"
+			},
+			{
+				"id": "313d62b2-ed91-4ab1-9ac1-a4db8576cbd3",
+				"method": "DELETE"
+			},
+			{
+				"id": "246199ec-8804-4ca1-aacb-270113ad5903",
+				"method": "DELETE"
+			},
+			{
+				"id": "704fd67b-310e-4e99-9599-12ee03b1c3fb",
+				"method": "PUT"
+			},
+			{
+				"id": "5ea2d6f9-f135-44d5-b4b7-be2a5f749503",
+				"method": "POST"
+			},
+			{
+				"id": "f4a82ecd-1ab4-48c4-b4c1-93b07c0058a7",
+				"method": "GET"
+			}
+		]
+	}
+}

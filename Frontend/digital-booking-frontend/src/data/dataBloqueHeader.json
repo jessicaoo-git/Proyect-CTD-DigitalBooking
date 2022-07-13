@@ -1,0 +1,18 @@
+
+    [{
+        
+        "id": 1,
+        "categoria": "HOTEL",
+        "titulo" : "Hermitage Hotel",
+        "ubicacion": "",
+        "ciudad":"Buenos Aires",
+        "provincia":"Ciudad Autónoma de Buenos Aires",
+        "pais":"Argentina",
+        "localizacion": "A 940 m del centro",
+        "imagenes": "",
+        "descripcion":"",
+        "politica": ""
+
+      }
+
+    ] 

@@ -1,0 +1,66 @@
+.contenedor-categoria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card-categoria{
+   width: 94%;
+   background: #ffffff;
+   border: 1px solid #f3f1ed;
+   box-sizing: border-box;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 0.625rem;
+   margin-top: 0.938rem;
+}
+
+.card-categoria:hover{
+    opacity: 0.8;
+}
+.card-categoria img {
+    width: 100%;
+  height: 13.313rem;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+.card-categoria h3{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 1.438rem;
+letter-spacing: 0em;
+padding-left: 0.688rem;
+padding-top: 0.688rem;
+font-weight: 700;
+line-height: 1.438rem;
+color: var(--color-dos);
+}
+
+.card-categoria p{
+font-size: 0.875rem;
+font-weight: 700;
+line-height: 1rem;
+letter-spacing: 0em;
+color: var(--color-dos);
+opacity: 0.6;
+padding-left: 0.688rem;
+padding-top: 0.075rem;
+padding-bottom: 0.424rem;
+
+
+} 
+
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+    .card-categoria{
+        width: 43%;
+    }
+    .contenedor-categoria{
+        gap: 0.813rem;
+    }
+  }
+  /* Modelo adaptativo destokp */
+  @media screen and (min-width: 992px) {
+      .card-categoria{
+          width: 23%;
+      }
+  }

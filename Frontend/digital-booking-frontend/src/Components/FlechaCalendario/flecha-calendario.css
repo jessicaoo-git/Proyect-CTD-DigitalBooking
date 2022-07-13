@@ -1,0 +1,99 @@
+div.flecha {
+  position: absolute;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+div.flecha.left {
+  left: -0.625rem;
+  top: 0rem;
+}
+
+div.flecha.right {
+  right: -1.25rem;
+  top: 0rem;
+}
+
+div.flecha {
+  background-color: transparent;
+  font-size: 1.875rem;
+}
+
+div.flecha span {
+  color: var(--color-dos);
+}
+
+@media screen and (min-width: 768px) {
+  div.flecha {
+    position: absolute;
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 7.5rem;
+  }
+
+  div.flecha span {
+    color: var(--color-dos);
+    font-weight: bold;
+    font-size: 1.875rem;
+  }
+
+  div.flecha.left {
+    left: -0.625rem;
+  }
+
+  div.flecha.right {
+    right: -1.25rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  div.rmdp-wrapper.reserva div.flecha {
+    top: 150px;
+  }
+
+  div.rmdp-wrapper.detalles div.flecha {
+    top: 150px;
+  }
+  div.rmdp-wrapper.detalles div.flecha.left {
+    left: -30px;
+  }
+
+  div.rmdp-wrapper.detalles div.flecha.right {
+    left: 780px;
+  }
+
+  div.flecha {
+    background-color: var(--color-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+  }
+  div.flecha:hover {
+    background-color: #e47151;
+  }
+  div.flecha.left {
+    left: -8.125rem;
+    top: 6.875rem;
+  }
+
+  div.flecha.right {
+    right: -9.375rem;
+    top: 6.875rem;
+  }
+  div.flecha span {
+    color: white;
+  }
+  .reserva div.flecha.left {
+    left: -10%;
+    top: 6.25rem;
+  }
+  .reserva div.flecha.right {
+    right: -10%;
+    top: 6.25rem;
+  }
+}

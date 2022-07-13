@@ -1,0 +1,191 @@
+.login-contenedor .login {
+    display: none;
+}
+
+.login-contenedor .login-burger {
+    display: none;
+}
+
+/**------Estilos ojo password -----------*/
+
+
+.formulario-login form {
+    display: inline-block;
+    width: 100%;
+    padding-left: 43px;
+    padding-right: 43px;
+
+}
+
+
+.formulario-login form label {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--color-dos);
+    padding-bottom: 10px;
+}
+.formulario-login input[type="email"] {
+background: #FFFFFF;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+width: 100%;
+height: 40px;
+border: transparent;
+outline: none;
+margin-bottom: 16px;
+}
+
+.formulario-login form .input-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 0 15px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    height: 40px;
+}
+
+.formulario-login .input-icon input {
+    border: none;
+    margin-top:13px;
+    flex: 1;
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+    height: 30px;
+}
+
+.formulario-login .input-icon input:focus {
+    outline: none;
+}
+
+
+.formulario-login .input-icon .icon {
+    color: #607D8B;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.formulario-login form button {
+    background: var(--color-principal);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 48px;
+    cursor: pointer;
+
+}
+
+.formulario-login>h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--color-principal);
+    padding-top: 16px;
+    padding-bottom: 115px;
+}
+.login-contenedor header{
+    margin-bottom: 50px;
+  }
+.formulario-login .error{
+    color: #FF0000;
+    text-align: right;
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+}
+.registrate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+
+}
+.registrate p{
+    font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+color: var(--color-dos);
+}
+.registrate a{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #5483e9;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.swal2-container.swal2-bottom, .swal2-container.swal2-center, .swal2-container.swal2-top {
+    grid-template-columns: auto minmax(0,1fr) auto;
+    background-color: #00000087;
+}
+.swal2-container.swal2-center>.swal2-popup {
+    width: 25em;
+    border-radius: 10px;
+    box-shadow: 1px 5px 8px rgb(106, 105, 105);
+
+}
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+    .formulario-login form{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .formulario-login>h2 {
+        padding: 30px 0px 20px 0px;
+      }
+  
+      .login-contenedor header{
+        margin-bottom: 50px;
+      }
+  }
+  /* Modelo adaptativo destokp */
+  @media screen and (min-width: 992px) {
+  /**MODIFICQUE DE AQUI */
+    .formulario-login{
+        width: 100%;
+       
+    }
+    .formulario-login form{
+       width: 420px;
+       padding: 0;
+     
+    }
+    /**HASTA AQUI */
+    .formulario-login>h2 {
+        padding: 30px 0px 20px 0px;
+      }
+      .formulario-login form button{
+        width: 45%;
+
+      }
+      .formulario-login{
+        text-align: center;
+    }
+      .formulario-login form label{
+          text-align: left;
+      }
+   
+}

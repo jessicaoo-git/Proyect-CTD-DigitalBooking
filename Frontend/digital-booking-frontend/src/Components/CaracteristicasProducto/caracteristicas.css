@@ -1,0 +1,124 @@
+.contenedor-bloque {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.bloqueUno__caja {
+  display: flex;
+  gap: 0.625rem;
+  padding: 1.25rem 0rem;
+  color: var(--color-principal);
+}
+.columnaUno {
+  display: flex;
+}
+.columnaDos {
+  display: flex;
+}
+.bloqueUno__caja {
+  width: 100%;
+}
+.bloqueUno__caja h4 {
+  font-size: 0.875rem;
+  font-weight: 100;
+  color: var(--color-dos);
+}
+.bloqueUno {
+  padding: 0rem;
+  margin: 0rem;
+}
+.bloqueDos {
+  bottom: 1.0625rem;
+  position: relative;
+}
+
+.detalleProducto__caracteristica__img {
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: none;
+  filter: hue-rotate(200deg);
+}
+.detalleProducto__contenedor__caracteristicas {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0.625rem;
+}
+
+.detalleProducto__contenedor__caracteristicaIndividual {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.625rem;
+  align-items: center;
+  font-family: "Roboto";
+  color: var(--color-dos);
+}
+
+
+.input-checkbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+}
+
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+  .contenedor-bloque {
+    padding-right: 0rem;
+    padding-left: 2.3125rem;
+    padding-top: 1.25rem;
+  }
+}
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+  .contenedor-bloque {
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bloqueUno {
+    display: flex;
+    align-items: center;
+    width: 41%;
+    justify-content: space-between;
+  }
+  .bloqueDos {
+    display: flex;
+    width: 48%;
+    margin-right: 10%;
+    align-items: center;
+    bottom: 0rem;
+    padding: 0rem 5rem 0rem 5rem;
+    justify-content: space-around;
+  }
+
+  .columnaUno {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .columnaDos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}

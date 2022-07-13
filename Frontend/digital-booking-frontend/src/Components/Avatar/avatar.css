@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.sb-avatar__text{
+    background-color: green;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.saludo{
+    display: flex;
+    color: #31363F;
+    gap: 35px;
+}
+.nombre-avatar{
+color: #F0572D;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+
+}
+.saludo button{
+    font-weight: bold;
+    color: #31363F;
+    background-color: transparent;
+    border-color: transparent;
+
+}
+
+.administracion{
+    display: flex;
+    align-items: center;
+   gap: 0px;
+}
+.administracion h3{
+    font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: white;
+background-color: var(--color-dos);
+padding: 10px;
+border-radius: 8px;
+}
+.administracion div{
+    border:  1.4px solid var(--color-principal);
+    height: 40px;
+    background-color: var(--color-principal);
+}
+.botonFav h3:hover{
+    border-bottom: 1px solid var(--color-dos);
+    border-color: #F0572D;
+}
+
+.botonFav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+    .botonFav{ display: flex;
+    flex-direction: row;
+}
+.administracion{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.administracion h3{
+    font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: var(--color-tres);
+background-color:transparent;
+padding: 0px;
+border-radius: 0px;}
+}

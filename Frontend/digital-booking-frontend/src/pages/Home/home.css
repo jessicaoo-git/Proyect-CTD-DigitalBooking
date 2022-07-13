@@ -1,0 +1,21 @@
+.dos{
+    margin-top: 8.33px;
+    background-color: var(--color-dos);
+    
+
+ }
+ h2.dos{
+     color: white;
+ }
+
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+.dos{
+    background-color: #E5E5E5;
+   
+}
+
+ h2.dos{
+    color: var(--color-dos);
+ }
+}

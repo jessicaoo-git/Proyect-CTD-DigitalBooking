@@ -1,0 +1,99 @@
+.modal {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 10;
+  background-color: transparent;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transition: 240ms;
+}
+
+img {
+  width: 20px;
+}
+
+.modal.is-open {
+  display: flex;
+}
+
+.modal-container {
+  position: relative;
+  min-width: 320;
+  max-width: 480px;
+  background-color: #fff;
+  min-height: 110px;
+  max-height: 110px;
+  overflow-y: auto;
+  padding: 4px 40px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 4px 5px rgba(0, 0, 0, 0.12);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1.4rem;
+  right: 1.4rem;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  border-color: transparent;
+  font-weight: 700;
+}
+.container-style-modal {
+  padding-top: 2.5rem;
+}
+.container-style-modal h2 {
+  font-size: 0.875rem;
+  padding-bottom: 0.625rem;
+}
+
+.contenedor__compartir {
+  display: flex;
+  justify-content: center;
+  gap: 0.8125rem;
+  font-size: 1.25rem;
+  align-items: center;
+
+}
+.contenedor__compartir .ws {
+    color: var(--color-dos);
+    font-size: 1.375rem;
+}
+.contenedor__compartir .fc {
+    color: var(--color-dos);
+}
+.contenedor__compartir .tw {
+    color: var(--color-dos);
+}
+.contenedor__compartir .ln {
+    color: var(--color-dos);
+}
+.contenedor__compartir .ws:hover {
+  color: #018101cb;
+}
+.contenedor__compartir .fc:hover  {
+  color: #050599;
+}
+.contenedor__compartir .tw:hover  {
+  color: #00a2ff;
+}
+.contenedor__compartir .ln:hover  {
+  color: #002cb9;
+}
+
+.icono__compartir{
+    color: var(--color-dos);
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 1.125rem;
+    font-weight: 100;
+}
+ .modalOpen button{
+    background-color: transparent;
+    border-color: transparent;
+}
+.icono__compartir:hover{
+    color: var(--color-principal);
+}

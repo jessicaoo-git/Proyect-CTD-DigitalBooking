@@ -1,0 +1,117 @@
+
+  .emergente {
+      width: 300px;
+      height: 100vh;
+      background-color:var(--color-cuatro);
+      position: absolute;
+      top: 0;
+      right: -300px;
+      transition: 0.5s all ease-in;   
+  }
+
+  .emergente.mostrar{
+      background-color: white;
+      right: 0px;
+      z-index: 200;
+      
+     
+  }
+  
+  .contenedorNaranja{
+    background-color:var(--color-principal);
+    height: 20vh;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+  }
+  
+ .contenedorNaranja >nav{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+   
+ }
+  .contenedorBlanco {
+    background-color:white ;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.contenedorBlanco a {
+    
+        padding: 17px;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 19px;
+        text-align: right;
+        color: var(--color-dos);
+}
+.cerrar{
+    font-size:1.5rem ;
+
+}
+ .socialMidia{
+
+    position: absolute;
+    padding: 1.5rem;
+   
+    font-size:1.3rem ;
+    color: var(--color-dos);
+    bottom: 0;
+    width: 100%;
+    text-align: end;
+  
+   
+}
+
+.logos-espacio{
+  width: 100%;
+  gap: 17.4px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contenedor-burger .avatar{
+ background-color: var(--color-principal);
+ display: flex;
+ justify-content: flex-end;
+ padding: 0rem 0.625rem 10px 0rem;
+ margin: 0;
+ 
+}
+.contenedor-burger .avatar .nombre-avatar{
+  color: var(--color-dos);
+}
+
+.contenedor-burger .avatar .saludo>p{
+  color: #ffffff;
+}
+
+
+
+.contenedorNaranja .boton__logout{
+  display: none;
+}
+
+.socialMidia button{
+  background-color: transparent;
+  border: transparent;
+  padding-bottom: 14px;
+  font-size: 12px;
+line-height: 14px;
+color: var(--color-dos);
+font-weight: 500;
+}
+.socialMidia button small{
+  color: var(--color-principal);
+  font-size: 12px;
+  font-weight: 500;
+}

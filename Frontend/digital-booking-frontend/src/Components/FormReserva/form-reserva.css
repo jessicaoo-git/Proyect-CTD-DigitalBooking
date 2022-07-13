@@ -1,0 +1,95 @@
+.contenedor-form {
+  display: flex;
+}
+.formulario {
+  box-sizing: border-box;
+  order: 0.0625rem solid #dfe4ea;
+  background: #ffffff;
+  padding: 1rem;
+  border: 0.0625rem solid #dfe4ea;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+}
+
+.contenedor-form h3 {
+  color: var(--color-dos);
+  padding: 0.8rem;
+}
+
+.formulario input {
+  background: var(--color-cuatro);
+  opacity: 1;
+  box-shadow: 0rem 0.0625rem 0.3125rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.3125rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.3125rem;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+input::-webkit-input-placeholder {
+  opacity: 0.5;
+  color: var(--color-dos);
+  font-size: 14px;
+}
+
+#ciudad {
+  background: #ffffff;
+}
+.box-email {
+  border: none;
+}
+
+.input-vacuna{
+  font-size: 1rem;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  gap:8px;
+  
+}
+
+form input[type="radio"]{float:left; width: 20px; margin-right: 10px;}
+.input-vacuna label{float: left; width: 100px;}
+
+
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+  .formulario form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+
+  .contenedor-form h3 {
+    font-size: 1.5rem;
+  }
+
+}
+
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+  .formulario form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 0.8rem;
+  }
+  .contenedor-form h3 {
+    font-size: 1.2rem;
+  }
+  .input-box {
+    width: 50%;
+    padding: 0.625rem;
+  }
+
+  .input-vacuna{
+    font-size: 1rem;
+  }
+}
+

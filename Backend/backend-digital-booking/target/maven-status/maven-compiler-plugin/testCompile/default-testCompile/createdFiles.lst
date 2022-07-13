@@ -1,0 +1,7 @@
+com\digitalbooking\backend\Services\impl\CiudadServiceTest.class
+com\digitalbooking\backend\BackendDigitalBookingApplicationTests.class
+com\digitalbooking\backend\Services\impl\ImagenServiceTest.class
+com\digitalbooking\backend\Services\impl\PoliticaServiceTest.class
+com\digitalbooking\backend\Services\impl\ProductoServiceTest.class
+com\digitalbooking\backend\Services\impl\CaracteristicaServiceTest.class
+com\digitalbooking\backend\Services\impl\CategoriaServiceTest.class

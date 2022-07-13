@@ -1,0 +1,45 @@
+.contenedor__boton p {
+  color: red;
+  padding-bottom: 0.625rem;
+  font-size: 12.8px;
+}
+
+.contenedor__boton button {
+  background: var(--color-principal);
+  box-shadow: 0rem 0.125rem 0.25rem rgba(0, 0, 0, 0.12);
+  border-radius: 0.3125rem;
+  height: 3.125rem;
+  width: 100%;
+  color: #ffffff;
+  outline: none;
+  border-color: transparent;
+  margin-bottom: 1.125rem;
+  margin-top: 2.25rem;
+  cursor: pointer;
+}
+
+.contenedor__boton button:hover {
+  background-color: var(--color-tres);
+}
+.swal2-title {
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--color-principal);
+}
+.swal2-html-container {
+  font-size: 20px;
+  line-height: 23px;
+
+  color: var(--color-dos);
+}
+.swal2-icon.swal2-success {
+  border-color: var(--color-principal);
+  color: var(--color-principal);
+}
+
+/* Modelo adaptativo destokp */
+@media screen and (min-width: 992px) {
+  .contenedor__boton button {
+    margin-top: 2.25rem;
+  }
+}

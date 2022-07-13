@@ -1,0 +1,57 @@
+.cont-BloqueHeader{
+    height: 4.813rem;
+    background: var(--color-tres);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0.75rem 0rem 0.75rem;
+    top: 0;
+    position: sticky;
+    z-index: 150;  
+}
+
+.contenedor-info{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+}
+
+.flecha-home button{
+    border: none;
+    background: var(--color-tres);  
+}
+.flecha-home svg{
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: var(--color-cuatro);
+}
+
+
+/* Modelo adaptativo tablet */
+@media screen and (min-width: 768px) {
+    
+    .cont-BloqueHeader {
+      padding: 0rem 1rem 0rem 2rem;
+    }
+
+    .InfoHeader h3{
+        font-size: 1.5rem;
+    }
+    
+    .InfoHeader h5{
+        font-size:1rem ;
+    } 
+  }
+
+/* Modelo adaptativo desktop */
+@media screen and (min-width : 992px) {
+    .cont-BloqueHeader {
+      padding: 0rem 1.5rem 0rem 2.5rem;
+    }
+}
+    
+
+
+    
+
